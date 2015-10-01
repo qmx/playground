@@ -280,7 +280,9 @@
           <hostedWebapp>src/main/webapp</hostedWebapp>
           <draftCompile>true</draftCompile>
           <compileSourcesArtifacts>
+            <compileSourcesArtifact>com.ahome-it:lienzo-core</compileSourcesArtifact>
             <compileSourcesArtifact>me.qmx.uf:playground-component-api</compileSourcesArtifact>
+            <compileSourcesArtifact>me.qmx.uf:playground-component-client</compileSourcesArtifact>
             <compileSourcesArtifact>me.qmx.uf:playground-component-client</compileSourcesArtifact>
             <!-- UberFire -->
             <compileSourcesArtifact>org.uberfire:uberfire-commons</compileSourcesArtifact>
@@ -309,7 +311,6 @@
             <id>gwt-compile</id>
             <goals>
               <goal>resources</goal>
-              <goal>compile</goal>
             </goals>
           </execution>
         </executions>

@@ -12,6 +12,7 @@
   <inherits name="org.uberfire.client.views.PatternFly"/>
 
   <inherits name="me.qmx.uf.component.PlaygroundComponentClient"/>
+  <inherits name="com.ait.lienzo.Lienzo"/>
   <!-- Specify the paths for translatable code -->
   <source path='client'/>
   <source path='shared'/>
